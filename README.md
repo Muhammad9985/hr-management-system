@@ -82,9 +82,7 @@ CREATE DATABASE hr_system;
 USE hr_system;
 
 # Import database schema
-SOURCE sql/hr_system.sql;
-SOURCE sql/roles_permissions.sql;
-SOURCE sql/demo_users.sql;
+SOURCE sql/complete_hr_system.sql;
 ```
 
 3. **Configuration**
@@ -199,23 +197,11 @@ The system uses a normalized MySQL database with 15+ tables:
 - `leave_applications` - Leave management
 - `onboarding_processes` - Employee onboarding
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
 
-- 📧 Email: support@hrmanagement.com
-- 📖 Documentation: [Wiki](https://github.com/yourusername/hr-management-system/wiki)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/hr-management-system/issues)
 
 ## 👨‍💻 Developer
 
